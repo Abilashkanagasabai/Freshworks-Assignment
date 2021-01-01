@@ -39,6 +39,6 @@ store.
 1. Operating system: Windows,Linux
 2. Python: Python3.6 or higher
 3. Install Python dependency packages: time and threading packages
-4. Run `main.py` to run the backend server.
-    1. To start datastore from default file location, run `python3 OOP.py`
+4. Run `main.py` to run the backend server(Object oriented Structure in `OOP.py` file).
+    1. To start datastore from default file location, run `python3 main.py`
     2. To start datastore from user defined file location, run `python3 main.py --datastore=<absolute_path_of_your_datastore>` 

@@ -51,7 +51,7 @@ def main():
             Cust.ShowData()
         if choice==6:
             del Cust # Removing the object to save memory
-            print(".............Exiting the portal...........")
+            print(".............Exited...........")
             break
         else:
             print("Enter the correct choice number ")
@@ -68,19 +68,19 @@ if __name__=="__main__":
 
 
 # We can use the multithreading using following syntax
-# Comment the following code if threading is not done
+# UnComment the following code if threading is  done
     
 
 ###########################################
     
     
-thread1=Thread(target=Cust.create or Cust.read or Cust.delete,args=(key_name,value,mytime))
-thread1.start()
-thread2=Thread(target=Cust.create or Cust.read or Cust.delete,args=(key_name,value,mytime))
-thread2start()
-thread1.join()
-thread2.join()
-print("done")
+#thread1=Thread(target=Cust.create or Cust.read or Cust.delete,args=(key_name,value,mytime))
+#thread1.start()
+#thread2=Thread(target=Cust.create or Cust.read or Cust.delete,args=(key_name,value,mytime))
+#thread2start()
+#thread1.join()
+#thread2.join()
+#print("done")
 
 
 ############################################
